@@ -7,6 +7,8 @@ body {
     /* border: 2px solid green; */
     width: 1439px;
     height: 2554px;
+    max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Header Styling */
@@ -16,6 +18,8 @@ header {
     width: 1275px;
     height: 800px;
     display: flex;
+    max-width: 100%;
+  height: auto;
 }
 
 .container1 {
@@ -31,6 +35,8 @@ header {
     width: 540px;
     height: 800px;
     background: url(assets/assets/desktop/image-hero.jpg), lightgray 50% / cover no-repeat;
+    max-width: 100%;
+  height: auto;
 }
 
 
@@ -56,7 +62,7 @@ h1 {
     font-weight: 300;
     line-height: 32px;
     /* 145.455% */
-    width: 350px;
+    width: 300px;
     height: 160px;
     top: 190px;
     left: 925px;
@@ -110,7 +116,7 @@ main {
     width: 1110px;
     height: 1150px;
     top: 980px;
-    left: 165px;
+    left: 100px;
     /* border: 2px solid blueviolet; */
 
 }
@@ -162,6 +168,8 @@ main {
     width: 635;
     height: 400;
     margin-left: 475px;
+    max-width: 100%;
+  height: auto;
 }
 
 .section-2 {
@@ -177,10 +185,14 @@ main {
 }
 
 .image-2 {
+    max-width: 100%;
+  height: auto;
     grid-column: 1 / 2;
 }
 
 .section-2 .image-3 img {
+    max-width: 100%;
+  height: auto;
     width: 445px;
     height: 313px;
 }
